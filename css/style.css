@@ -1,0 +1,41 @@
+.fixed-row-bottom {
+    position: fixed;
+    bottom: 20px;
+    width: 100%
+}
+
+input#message-box {
+    width: 70vw;
+    size: 18px;
+}
+
+.hidden{
+    display: none;
+}
+
+ul#message-container{
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+    height: 90vh;
+}
+
+li.message{
+    margin-bottom: 10px;
+}
+
+div.messageFrom {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: aqua;
+}
+
+button {
+    margin: 0 5px;
+}
+
+span.text {
+    color: blue;
+}

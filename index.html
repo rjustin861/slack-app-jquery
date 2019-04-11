@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slack App</title>
+        <link rel="stylesheet" href="lib/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row messageRow">
+                <div class="col-2">
+                    <ul id="channel-container"></ul>
+                </div>
+                <div class="col-10">
+                    <ul id="message-container"></ul>
+                </div>
+            </div>
+            <div class="row fixed-row-bottom">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <input id="message-box" type="text" placeholder="Enter your message">
+                </div>
+            </div>
+        </div>
+        <script src="lib/jquery-3.3.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
